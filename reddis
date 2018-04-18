@@ -1,0 +1,8 @@
+#Redis
+spring.redis.cluster.nodes=120.132.61.214:8000,117.50.14.184:8004,117.50.14.184:8002,117.50.14.184:8003
+spring.redis.nodes=120.132.54.77:6379
+#,117.50.14.184:6380,117.50.14.184:6381
+spring.redis.pool.max-idle=8
+spring.redis.pool.min-idle=0
+spring.redis.pool.max-active=20
+spring.redis.pool.max-wait=5000
